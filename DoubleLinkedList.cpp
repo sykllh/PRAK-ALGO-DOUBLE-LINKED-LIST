@@ -27,5 +27,8 @@ public:
         int nim;
         cout << "\nEnter the roll number of the student: ";
         cin >> nim;
+
+        // Step 1: Allocate memory for new Node
+        Node *newNode = new Node();
     }
 }
